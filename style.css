@@ -1,0 +1,311 @@
+body {
+    margin: 0px;
+    direction: rtl;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./font/IRANSansX-Regular.woff') format('woff');
+    font-size: 16px;
+
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1900px;
+    margin: 0px auto;
+    font-family: 'MyCustomFont';
+}
+
+
+.main-container .back {
+    background-image: url(./img/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 0px 0px 50px 50px;
+    justify-content: center;
+}
+
+.main-container .back .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 3% 3% 3%;
+}
+
+
+.main-container .back .season {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-right: 7%;
+    margin-top: 15%;
+}
+
+.main-container .back .text1 {
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-size: 4vw;
+}
+
+.main-container .back .button1 {
+    padding: 0%;
+    border-radius: 10px;
+    background-color: #bb1613;
+    color: #ffffff;
+    font-family: 'MyCustomFont';
+    padding: 2px 10px;
+    border: 0px;
+    font-size: 2vw;
+}
+
+.main-container .back .button2 {
+    padding: 0%;
+    border-radius: 10px;
+    background-color: #286444;
+    color: #ffffff;
+    font-family: 'MyCustomFont';
+    padding: 2px 18px;
+    border: 0px;
+    font-size: 2vw;
+}
+
+
+main .first  {
+    background-image: url(./img/Rectangle\ 44.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+main .first div {
+    justify-content: center;
+    align-content: center;
+}
+
+main .first div h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #bb1613;
+}
+
+main .first div p {
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 0 13%;
+}
+
+
+main .second {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 0px;
+}
+
+main .season img {
+    width: 50vm;
+}
+
+main .third {
+    background-color: #ffffff ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+main .third .text {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+main .third  {
+    background-image: url(./img/Rectangle\ 44.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+main .third .form {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    padding: 0px;
+    margin-right: 10%;
+    text-align: right;
+}
+
+main  .third .form input {
+    border-radius: 30px;
+    border: 1px solid #000;
+    width: 65%;
+    padding: 10px 10px;
+    margin: 2% 2%;
+    background-color: #F5F5F5;
+}
+
+main .third .form label {
+    margin-right:15px;
+    font-weight: 600;
+}
+
+main .third .button4 {
+    font-size: 1.5em;
+    border-radius: 30px;
+    background-color: #286444;
+    color: #ffffff;
+    font-family: 'MyCustomFont';
+    border: 0px;
+    padding: 8px 50px;
+    margin-top: 1%;
+}
+
+main .Fourth p {
+    text-align: center;
+    font-size: 2em;
+    color: #bb1613;
+}
+
+main .Fourth img {
+    justify-content: center;
+    align-content: center;
+}
+
+main .Fourth .customers {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 3% 10%;
+    padding: 10px;
+    direction: ltr;
+}
+
+main .Fourth div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff ;
+    margin: 0% 3%;
+}
+
+footer p {
+    background-color: #bb1613;
+    color: #ffffff;
+    padding: 1% 10%;
+    border-radius: 0px 0px 30px 30px;
+    text-align: center;
+    font-family: 'MyCustomFont';
+}
+
+/* media query */
+
+    .main-container {width: 100%;}
+
+    .main-container  .image0  {width: 10%;}
+    .main-container .back {height: 1000px;}
+
+    main .first .text1 {background-size: 100% 100%;}
+    main .Fourth .image2 {width: 50%;}
+
+    footer p {font-size: 1.3em;}
+
+
+@media screen and (max-width:1600px){
+    .main-container {width: 100%;}
+
+    header .image0  {width: 10%;}
+    .main-container .back {height: 850px;}
+
+    main .first .image1 {width: 80%;}
+    main .first .text1
+
+    main .Fourth .image2 {width: 50%;}
+
+    footer p {font-size: 1.3em;}
+}
+@media screen and (max-width:1200px){
+    .main-container {width: 100%;}
+
+    header .image0  {width: 10%;}
+    .main-container .back {height: 700px;}
+
+    main .first .image1 {width: 80%;}
+
+    main .Fourth .image2 {width: 50%;}
+
+    footer p {font-size: 1.3em;}
+}
+
+@media screen and (max-width:960px){
+    .main-container {width: 100%;}
+
+    header .image0  {width: 10%;}
+    .main-container .back {height: 550px;}
+    
+    main .first .image1 {width: 80%;}
+
+    main .Fourth .image2 {width: 50%;}
+
+    footer p {font-size: 0.9em;}
+}
+
+@media screen and (max-width:720px){
+    .main-container {width: 100%;}
+
+    header .image0 {width: 10%;}
+    .main-container .back {height: 400px}
+    
+    main .first .image1 {width: 80%;}
+
+    main .Fourth .image2 {width: 50%;}
+
+    footer p {font-size: 0.7em;}
+}
+
+@media screen and (max-width:480px){
+    .main-container {width: 100%;}
+
+    header .image0 {width: 10%;}
+    .main-container .back {height: 250px;}
+    .main-container .back .season {margin-top: 22%;}
+    
+    main .first .image1 {width: 80%;}
+
+    main .Fourth .image2 {width: 50%;}
+
+    main .third .form label {margin-right:10px;}
+    footer p {font-size: 0.7em;}
+}
+
+@media screen and (max-width:300px){
+    .main-container {width: 100%;}
+
+    header .image0 {width: 10%;}
+    .main-container .back {height: 150px;}
+    .main-container .back .season {margin-top: 22%;}
+    
+    main .first .image1 {width: 80%;}
+
+
+    main .Fourth .image2 {width: 50%;}
+
+    main .third .form label {margin-right:10px;}
+
+    footer p {font-size: 0.5em;}
+}
