@@ -38,11 +38,9 @@ body {
 .main-container .back .season {
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    margin-right: 7%;
-    margin-top: 15%;
+    margin-right: 15%;
 }
+
 
 .main-container .back .text1 {
     font-weight: bold;
@@ -91,12 +89,12 @@ main .first div {
 
 main .first div h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #bb1613;
 }
 
 main .first div p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: justify;
     padding: 0 13%;
 }
@@ -106,23 +104,17 @@ main .second {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 50px 0px;
+    padding: 30px 30px;
 }
 
 main .second img {
     width: 100%;
 }
 
-main .third {
-    background-color: #ffffff ;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
 main .third .text {
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: bold;
+    text-align: center;
 }
 
 main .third  {
@@ -131,7 +123,7 @@ main .third  {
     background-size: cover;
     background-position: center;
     justify-content: center;
-    padding: 20px 0px;
+    padding: 20px 20px;
 }
 
 main .third .form {
@@ -139,8 +131,7 @@ main .third .form {
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
     padding: 0px;
-    margin-right: 10%;
-    text-align: right;
+    text-align: center;
 }
 
 main  .third .form input {
@@ -155,28 +146,36 @@ main  .third .form input {
 main .third .form label {
     margin-right:15px;
     font-weight: 600;
+    text-align: right;
+    font-size: 0.8em;
 }
 
 main .third .button4 {
-    font-size: 1.5em;
+    font-size: 1em;
     border-radius: 30px;
     background-color: #286444;
     color: #ffffff;
     font-family: 'MyCustomFont';
     border: 0px;
     padding: 8px 50px;
-    margin-top: 1%;
+    margin-top: 20px;
+}
+
+main .third .btn {
+    display: flex;
+    justify-content: center;
 }
 
 main .Fourth p {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #bb1613;
 }
 
 main .Fourth img {
     justify-content: center;
     align-content: center;
+    width: 80%;
 }
 
 main .Fourth .customers {
@@ -184,8 +183,7 @@ main .Fourth .customers {
     grid-template-columns: repeat(5,1fr);
     justify-content: center;
     align-items: center;
-    margin: 3% 10%;
-    padding: 10px;
+    margin: 3% 6%;
     direction: ltr;
 }
 
@@ -273,7 +271,7 @@ footer p {
     
     main .first .image1 {width: 80%;}
 
-    main .Fourth .image2 {width: 50%;}
+    main .Fourth .image2 {width: 100%;}
 
     footer p {font-size: 0.7em;}
 }
@@ -283,11 +281,11 @@ footer p {
 
     header .image0 {width: 10%;}
     .main-container .back {height: 250px;}
-    .main-container .back .season {margin-top: 22%;}
     
     main .first .image1 {width: 80%;}
 
-    main .Fourth .image2 {width: 50%;}
+    main .Fourth .image2 {width: 100%;}
+    main .Fourth .customers {grid-template-columns: repeat(4,1fr);}
 
     main .third .form label {margin-right:10px;}
     footer p {font-size: 0.7em;}
@@ -298,12 +296,12 @@ footer p {
 
     header .image0 {width: 10%;}
     .main-container .back {height: 150px;}
-    .main-container .back .season {margin-top: 22%;}
     
     main .first .image1 {width: 80%;}
 
 
-    main .Fourth .image2 {width: 50%;}
+    main .Fourth .image2 {width: 100%;}
+    main .Fourth .customers {grid-template-columns: repeat(4,1fr);}
 
     main .third .form label {margin-right:10px;}
 
