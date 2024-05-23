@@ -24,8 +24,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    border-radius: 0px 0px 50px 50px;
     justify-content: center;
+    background-color: #F5F5F5;
 }
 
 .main-container .back .header{
