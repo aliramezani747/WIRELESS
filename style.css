@@ -109,8 +109,8 @@ main .second {
     padding: 50px 0px;
 }
 
-main .season img {
-    width: 50vm;
+main .second img {
+    width: 100%;
 }
 
 main .third {
