@@ -100,12 +100,63 @@ main .first div p {
 }
 
 
-main .second {
+/* main .second {
     display: flex;
     justify-content: center;
     align-content: center;
     padding: 30px 30px;
+} */
+
+
+main .second .secondBac {
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 2% 4%;
 }
+
+
+/* main .second div {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 2% 4%;
+} */
+
+main .second .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .second  p {
+    color: #FF0000;
+    font-weight: 600;
+    text-align: center;
+    padding: 0% 13%;
+}
+
+main .slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .second .band{
+    display: flex;
+}
+
+main .second .band .pishgaman {
+    font-size: 2vm;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
 
 main .second img {
     width: 100%;
@@ -192,6 +243,7 @@ main .Fourth div {
     justify-content: center;
     align-items: center;
 }
+
 
 footer {
     display: flex;
