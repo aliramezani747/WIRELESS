@@ -138,6 +138,7 @@ main .second  p {
     font-weight: 600;
     text-align: center;
     padding: 0% 13%;
+    font-size: 0.9em;
 }
 
 main .slogan {
@@ -148,10 +149,11 @@ main .slogan {
 
 main .second .band{
     display: flex;
+    justify-content: center;
 }
 
 main .second .band .pishgaman {
-    font-size: 2vm;
+    font-size: 1.3em;
     color: #000;
     font-weight: bold;
     text-align: center;
@@ -163,7 +165,7 @@ main .second img {
 }
 
 main .third .text {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     text-align: center;
 }
@@ -310,6 +312,7 @@ footer p {
     
     main .first .image1 {width: 80%;}
 
+
     main .Fourth .image2 {width: 50%;}
 
     footer p {font-size: 0.9em;}
@@ -335,9 +338,10 @@ footer p {
     .main-container .back {height: 250px;}
     
     main .first .image1 {width: 80%;}
+    main .second .secondBac {grid-template-columns: repeat(2, 1fr);}
 
     main .Fourth .image2 {width: 100%;}
-    main .Fourth .customers {grid-template-columns: repeat(4,1fr);}
+    main .Fourth .customers {grid-template-columns: repeat(3,1fr);}
 
     main .third .form label {margin-right:10px;}
     footer p {font-size: 0.7em;}
@@ -350,10 +354,11 @@ footer p {
     .main-container .back {height: 150px;}
     
     main .first .image1 {width: 80%;}
+    main .second .secondBac {grid-template-columns: repeat(2, 1fr);}
 
 
     main .Fourth .image2 {width: 100%;}
-    main .Fourth .customers {grid-template-columns: repeat(4,1fr);}
+    main .Fourth .customers {grid-template-columns: repeat(3,1fr);}
 
     main .third .form label {margin-right:10px;}
 
