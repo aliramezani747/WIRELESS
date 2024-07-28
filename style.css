@@ -41,13 +41,13 @@ body {
     margin-right: 15%;
 }
 
-
 .main-container .back .text1 {
     font-weight: bold;
     color: #ffffff;
     margin: 0px;
     padding: 0px;
     font-size: 4vw;
+    margin-top: 6%;
 }
 
 .main-container .back .button1 {
@@ -165,13 +165,12 @@ main .second img {
 }
 
 main .third  {
-    background-image: url(./img/Rectangle\ 44.webp);
+    background-image: url(./img/Rectangle44.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     justify-content: center;
     padding: 20px 20px;
-    background-color: #F5F5F5;
 }
 
 main .third .text {
@@ -191,8 +190,8 @@ main .third .form {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
-    padding: 0px;
-    text-align: center;
+    text-align: right;
+    padding-right: 10%;
 }
 
 main  .third .form input {
@@ -216,10 +215,9 @@ main  .third .form select {
 }
 
 main .third .form label {
-    margin-right:15px;
     font-weight: 600;
-    text-align: right;
     font-size: 0.8em;
+    margin-right: 5%;
 }
 
 main .third .button4 {
@@ -319,7 +317,7 @@ footer p {
 
     .main-container {width: 100%;}
 
-    .main-container  .mage1577bw  {width: 10%;}
+    .main-container  .image1577bw  {width: 10%;}
     .main-container  .logobw  {width: 10%;}
     .main-container .back {height: 1000px;}
 
@@ -332,7 +330,7 @@ footer p {
 @media screen and (max-width:1600px){
     .main-container {width: 100%;}
 
-    header .mage1577bw  {width: 10%;}
+    header .image1577bw  {width: 10%;}
     header .logobw  {width: 10%;}
     .main-container .back {height: 850px;}
 
@@ -346,7 +344,7 @@ footer p {
 @media screen and (max-width:1200px){
     .main-container {width: 100%;}
 
-    header .mage1577bw  {width: 10%;}
+    header .image1577bw  {width: 10%;}
     header .logobw  {width: 10%;}
     .main-container .back {height: 700px;}
 
@@ -360,7 +358,7 @@ footer p {
 @media screen and (max-width:960px){
     .main-container {width: 100%;}
 
-    header .mage1577bw  {width: 10%;}
+    header .image1577bw  {width: 10%;}
     header .logobw  {width: 10%;}
     .main-container .back {height: 550px;}
     
@@ -374,8 +372,12 @@ footer p {
 
 @media screen and (max-width:720px){
     .main-container {width: 100%;}
+    .main-container .back .season .btns {margin-top: 33%;}
+    .main-container .back .button1 {font-size: 3vw;}
+    .main-container .back .button2 {font-size: 3vw;}
 
-    header .mage1577bw {width: 10%;}
+
+    header .image1577bw {width: 10%;}
     header .logobw {width: 10%;}
     .main-container .back {height: 400px}
     
@@ -383,13 +385,20 @@ footer p {
 
     main .Fourth .image2 {width: 65%;}
 
+    main .third .form {grid-template-columns: repeat(1,1fr);}
+    main  .third .form input {width: 85%;}
+    main  .third .form select {width: 89%;}
     footer p {font-size: 0.7em;}
 }
 
 @media screen and (max-width:480px){
     .main-container {width: 100%;}
+    .main-container .back .season .btns {margin-top: 30%;}
+    .main-container .back .button1 {font-size: 3vw;}
+    .main-container .back .button2 {font-size: 3vw;}
 
-    header .mage1577bw {width: 10%;}
+
+    header .image1577bw {width: 10%;}
     header .logobw {width: 10%;}
     .main-container .back {height: 250px;}
     
@@ -399,14 +408,21 @@ footer p {
     main .Fourth .image2 {width: 65%;}
     main .Fourth .customers {grid-template-columns: repeat(3,1fr);}
 
+    main .third .form {grid-template-columns: repeat(1,1fr);}
+    main  .third .form input {width: 85%;}
+    main  .third .form select {width: 91%;}
     main .third .form label {margin-right:10px;}
     footer p {font-size: 0.7em;}
 }
 
 @media screen and (max-width:300px){
     .main-container {width: 100%;}
+    .main-container .back .season .btns {margin-top: 30%;}
+    .main-container .back .button1 {font-size: 3vw;}
+    .main-container .back .button2 {font-size: 3vw;}
 
-    header .mage1577bw {width: 10%;}
+
+    header .image1577bw {width: 10%;}
     header .logobw {width: 10%;}
     .main-container .back {height: 150px;}
     
@@ -417,6 +433,9 @@ footer p {
     main .Fourth .image2 {width: 65%;}
     main .Fourth .customers {grid-template-columns: repeat(3,1fr);}
 
+    main .third .form {grid-template-columns: repeat(1,1fr);}
+    main  .third .form input {width: 85%;}
+    main  .third .form select {width: 91%;}
     main .third .form label {margin-right:10px;}
 
     footer p {font-size: 0.5em;}
