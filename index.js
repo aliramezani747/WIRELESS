@@ -57,6 +57,13 @@ await fetch(url, {
 });
 });
 
+fetch('cities.txt')
+  .then(response => response.text())
+  .then(data => {
+  document.getElementById('tbCity').innerHTML = data;
+})
+.catch(error => console.error('Error loading cities:', error));
+
 
 function validateFormAndItems() {
   let tbName = document.getElementById('tbName').value.trim();
@@ -68,12 +75,17 @@ function validateFormAndItems() {
     return false;
   }
 
+  if (tbCity === '0') {
+    alert('لطفا استان خود را انتخاب نمایید');
+    return false;
+  }
+
   else {
     const success = 
     document.getElementById("wireless_submit_button").addEventListener("click", () => {
     let alertElement = document.getElementById("alertMessage");
 
-    alertElement.innerHTML = "همکاران ما به زودی با شما تماس میگیرند";
+    alertElement.innerHTML = " اطلاعات شما ثبت گردید. همکاران ما جهت ارائه راهکارهای مناسب با شما تماس خواهند گرفت ";
     alertElement.style.display = "block";
 });
 console.log(success)

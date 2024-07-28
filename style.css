@@ -164,12 +164,6 @@ main .second img {
     width: 100%;
 }
 
-main .third .text {
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
-}
-
 main .third  {
     background-image: url(./img/Rectangle\ 44.webp);
     background-repeat: no-repeat;
@@ -177,7 +171,21 @@ main .third  {
     background-position: center;
     justify-content: center;
     padding: 20px 20px;
+    background-color: #F5F5F5;
 }
+
+main .third .text {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .third a {
+    text-decoration: none;
+    color: #FF0000;
+    font-size: 1.3rem;
+}
+
 
 main .third .form {
     display: grid;
@@ -188,6 +196,16 @@ main .third .form {
 }
 
 main  .third .form input {
+    border-radius: 30px;
+    border: 1px solid #000;
+    width: 65%;
+    padding: 10px 10px;
+    margin: 2% 2%;
+    background-color: #F5F5F5;
+    font-family: inherit;
+}
+
+main  .third .form select {
     border-radius: 30px;
     border: 1px solid #000;
     width: 65%;
@@ -301,7 +319,8 @@ footer p {
 
     .main-container {width: 100%;}
 
-    .main-container  .image0  {width: 10%;}
+    .main-container  .mage1577bw  {width: 10%;}
+    .main-container  .logobw  {width: 10%;}
     .main-container .back {height: 1000px;}
 
     main .first .text1 {background-size: 100% 100%;}
@@ -313,7 +332,8 @@ footer p {
 @media screen and (max-width:1600px){
     .main-container {width: 100%;}
 
-    header .image0  {width: 10%;}
+    header .mage1577bw  {width: 10%;}
+    header .logobw  {width: 10%;}
     .main-container .back {height: 850px;}
 
     main .first .image1 {width: 80%;}
@@ -326,7 +346,8 @@ footer p {
 @media screen and (max-width:1200px){
     .main-container {width: 100%;}
 
-    header .image0  {width: 10%;}
+    header .mage1577bw  {width: 10%;}
+    header .logobw  {width: 10%;}
     .main-container .back {height: 700px;}
 
     main .first .image1 {width: 80%;}
@@ -339,7 +360,8 @@ footer p {
 @media screen and (max-width:960px){
     .main-container {width: 100%;}
 
-    header .image0  {width: 10%;}
+    header .mage1577bw  {width: 10%;}
+    header .logobw  {width: 10%;}
     .main-container .back {height: 550px;}
     
     main .first .image1 {width: 80%;}
@@ -353,7 +375,8 @@ footer p {
 @media screen and (max-width:720px){
     .main-container {width: 100%;}
 
-    header .image0 {width: 10%;}
+    header .mage1577bw {width: 10%;}
+    header .logobw {width: 10%;}
     .main-container .back {height: 400px}
     
     main .first .image1 {width: 80%;}
@@ -366,7 +389,8 @@ footer p {
 @media screen and (max-width:480px){
     .main-container {width: 100%;}
 
-    header .image0 {width: 10%;}
+    header .mage1577bw {width: 10%;}
+    header .logobw {width: 10%;}
     .main-container .back {height: 250px;}
     
     main .first .image1 {width: 80%;}
@@ -382,7 +406,8 @@ footer p {
 @media screen and (max-width:300px){
     .main-container {width: 100%;}
 
-    header .image0 {width: 10%;}
+    header .mage1577bw {width: 10%;}
+    header .logobw {width: 10%;}
     .main-container .back {height: 150px;}
     
     main .first .image1 {width: 80%;}
