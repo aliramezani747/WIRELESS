@@ -204,6 +204,11 @@ main  .third .form input {
     font-family: inherit;
 }
 
+main  .third .form .controlContent {
+    direction: ltr;
+}
+
+
 main  .third .form select {
     border-radius: 30px;
     border: 1px solid #000;
@@ -393,7 +398,7 @@ footer p {
 
 @media screen and (max-width:480px){
     .main-container {width: 100%;}
-    .main-container .back .season .btns {margin-top: 30%;}
+    .main-container .back .season .btns {margin-top: 36%;}
     .main-container .back .button1 {font-size: 3vw;}
     .main-container .back .button2 {font-size: 3vw;}
 
